@@ -1,15 +1,16 @@
-// this is for createing new branch
+
+import Todo from "./components/Todo";
+
+
+
 function App() {
   return (
     <div>
       <h1>My Todos</h1>
 
-      <div className="card">
-        <h3>TITLE</h3>
-        <div className="actions">
-          <button className="btn">Delete</button>
-        </div>
-      </div>
+      <Todo text="learn react" />
+      <Todo text="master in react" />
+      <Todo text="develpo react js application " />
     </div>
   );
 }
